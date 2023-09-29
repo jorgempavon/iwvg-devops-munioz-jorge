@@ -8,6 +8,7 @@ import org.junit.Test;
 public class FractionTest {
     private Fraction fraction;
 
+
     @Before
     public void setUp() {
         fraction = new Fraction(3, 4);
