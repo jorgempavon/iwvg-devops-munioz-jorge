@@ -3,11 +3,11 @@ package es.upm.miw.iwg_devops.code;
 import static org.junit.Assert.*;
 
 import es.upm.miw.iwvg_devops.code.Fraction;
-import org.junit.Before;
+
 import org.junit.Test;
 
 public class FractionTest {
-    private Fraction fraction;
+
 
 
     @Test

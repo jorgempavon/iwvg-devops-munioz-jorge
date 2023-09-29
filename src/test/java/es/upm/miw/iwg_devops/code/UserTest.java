@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import es.upm.miw.iwvg_devops.code.Fraction;
 import es.upm.miw.iwvg_devops.code.User;
-import org.junit.Before;
+
 import org.junit.Test;
 import java.util.ArrayList;
 import java.util.List;
@@ -12,8 +12,6 @@ import java.util.List;
 import java.util.Arrays;
 
 public class UserTest {
-
-    private User user;
 
     @Test
     public void testGetId() {
