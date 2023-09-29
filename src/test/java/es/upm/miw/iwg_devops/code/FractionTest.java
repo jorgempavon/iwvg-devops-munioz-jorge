@@ -40,6 +40,7 @@ public class FractionTest {
         assertEquals(0.75, fraction.decimal(), 0.001); // Utilizamos delta para comparaciones de punto flotante
     }
 
+
     @Test
     public void testDefaultConstructor() {
         Fraction defaultFraction = new Fraction();
