@@ -2,6 +2,7 @@ package es.upm.miw.iwg_devops.code;
 
 import static org.junit.Assert.*;
 
+import es.upm.miw.iwvg_devops.code.Fraction;
 import es.upm.miw.iwvg_devops.code.User;
 import org.junit.Before;
 import org.junit.Test;
@@ -14,7 +15,7 @@ public class UserTest {
 
     @Before
     public void setUp() {
-        user = new User("123", "John", "Doe", new ArrayList<>());
+        user = new User("123", "Jorge", "Muñoz", new ArrayList<>());
     }
 
     @Test
@@ -24,24 +25,24 @@ public class UserTest {
 
     @Test
     public void testGetName() {
-        assertEquals("John", user.getName());
+        assertEquals("Jorge", user.getName());
     }
 
     @Test
     public void testSetName() {
-        user.setName("Jane");
-        assertEquals("Jane", user.getName());
+        user.setName("Jorge");
+        assertEquals("Jorge", user.getName());
     }
 
     @Test
     public void testGetFamilyName() {
-        assertEquals("Doe", user.getFamilyName());
+        assertEquals("Muñoz", user.getFamilyName());
     }
 
     @Test
     public void testSetFamilyName() {
-        user.setFamilyName("Smith");
-        assertEquals("Smith", user.getFamilyName());
+        user.setFamilyName("Muñoz");
+        assertEquals("Muñoz", user.getFamilyName());
     }
 
     @Test
@@ -66,7 +67,7 @@ public class UserTest {
 
     @Test
     public void testFullName() {
-        assertEquals("John Doe", user.fullName());
+        assertEquals("Jorge Muñoz", user.fullName());
     }
 
     @Test
@@ -76,7 +77,7 @@ public class UserTest {
 
     @Test
     public void testToString() {
-        assertEquals("User{id='123', name='John', familyName='Doe', fractions=[]}", user.toString());
+        assertEquals("User{id='123', name='Jorge', familyName='Muñoz', fractions=[]}", user.toString());
     }
 }
 
