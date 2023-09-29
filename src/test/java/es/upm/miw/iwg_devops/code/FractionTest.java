@@ -51,4 +51,6 @@ public class FractionTest {
     public void testToString() {
         assertEquals("Fraction{numerator=3, denominator=4}", fraction.toString());
     }
+
+
 }
